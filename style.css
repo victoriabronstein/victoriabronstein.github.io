@@ -1,0 +1,45 @@
+/* General CSS */
+body{background-color: white;overflow-x:hidden;}
+
+h1{color:black;font-family: 'Source Sans Pro', sans-serif;font-weight:300;padding-top:30px;margin:0;text-align: center;}
+
+p{color:black;font-family: 'Georgia', sans-serif;font-weight:300;padding-top:30px;margin:0;font-size:18px;padding-left:20px;padding-right: 100px;}
+
+a{color: #AEBFC3;}
+a.tab{transition:all .5s ease;text-decoration: none;display:inline;font-family:'Muli', sans-serif;font-weight:300;color:white;margin:10px;border:2px solid white;padding:11px;}
+a.tab:hover{color:black;background-color:white;}
+li{display: inline;}
+a.active{text-decoration: none;display:inline;font-family:'Muli', sans-serif;font-weight:300;color:black;margin:10px;border:2px solid white;padding:11px;color:black;background-color:white;}
+#navtabs{background-color:rgba(0,0,0,.9);width:100%;position:fixed;top:100px;z-index:999;left:0;padding-bottom:10px;}
+ul{list-style-type: none;}
+
+.center{text-align: center;}
+
+/* Home */
+#begin p{text-align:center;}
+
+#begin h1{text-align:center;}
+
+#navbar{position:fixed;top:0px;left:0px;width:100%;height:100px;background-color:black;background-size:180px;
+	;z-index:999;opacity:.9;}
+
+#logo{transition:all .5s ease;background-image:url("detroitlogowords.png");background-size:180px;width:180px;height:100%;background-repeat:no-repeat;background-position:50%;margin:0 auto;}
+#logo:hover{cursor:pointer;opacity:.7;}
+
+#header{position:absolute;left:0;height:420px;width:100%;background-image:url("https://img1.etsystatic.com/053/0/5695102/il_fullxfull.717628593_zfee.jpg");background-size:50%;background-position:50%;}
+
+#blog{position:absolute;top:520px;background-color:white;width:100%;}
+
+.button{margin:0 auto;transition:all .5s ease;width:200px;height:60px;border:2px solid black;background-color:white;text-align: center;color:black;font-family: 'Source Sans Pro', sans-serif;
+font-weight:300;font-size: 17px; margin:0 auto; display:block;margin-top:20px;}
+.button:hover{cursor:pointer;background-color:black;color:white;}
+
+#aboutme{width:200px;height: 200px;border-radius: 50%;background-image:url("meatshinola.png");background-size:170%;background-position:100%;background-repeat: no-repeat;margin:0 auto;}
+
+#me p{text-align:center;}
+
+#me h1{text-align:center;}
+
+#readmore{background-image:url("readmorethin.png");background-size:70px;background-position:50%;background-repeat: no-repeat;}
+#readmore:hover{background-image:url("readmorewhite.png");background-size:73px;background-position:0%;}
+

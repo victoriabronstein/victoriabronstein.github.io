@@ -1,0 +1,32 @@
+body{background-color: white;overflow-x:hidden;}
+
+h1{color:black;font-family: 'Source Sans Pro', sans-serif;font-weight:300;padding-top:30px;margin:0;text-align: center;}
+
+p{color:black;font-family: 'Muli', sans-serif;font-weight:300;padding-top:30px;margin:0;font-size:18px;padding:20px;}
+
+table{border-collapse: collapse;margin:0 auto;}
+td,th{border:2px solid #98aeb3;padding:20px;font-family:'Muli',sans-serif;}
+th{background-color:#AEBFC3;color:white;font-weight: 300}
+img{height:100px;margin:0 auto;display:block;}
+
+#navbar{position:fixed;top:0px;left:0px;width:100%;height:100px;background-color:black;background-size:180px;
+	;z-index:999;opacity:.9;}
+
+#logo{transition:all .5s ease;background-image:url("detroitlogowords.png");background-size:180px;width:180px;height:100%;background-repeat:no-repeat;background-position:50%;margin:0 auto;}
+#logo:hover{cursor:pointer;opacity:.7;}
+.center{text-align: center;}
+.header{width:100%;height:100%;position:absolute;left:0;top:0;;background-size:100%;background-repeat:no-repeat;}
+#dia{background-image:url("http://www.realestateone.com/community/wp-content/uploads/2012/12/Detroit-Institute-of-Art.jpg")}
+.innercontent{background-color:white;margin:0 auto;display:block;width:80%;margin-top:40px;padding-bottom:20px;}
+.down{margin:0 auto;display:block;margin-top:400px;position:absolute:cursor:pointer;transition:all .5s ease;width:100px;height:100px;border:2px solid white;background-color:rgba(0,0,0,0);
+	background-image:url("arrowdown.png");background-size:50px;border-radius:50%;background-position:50% 60%;background-repeat: no-repeat;}
+.down:hover{background-position:50% 80%;cursor:pointer;background-color:rgba(255,255,255,.3);}
+.abouttopic{display:block;height:100%;width:100%;position:absolute;left:0;top:820px;background-image:url("http://mediad.publicbroadcasting.net/p/michigan/files/201307/diego_rivera_mural.jpg");
+background-position:50%;background-size:100%;background-repeat: no-repeat;}
+a{color: #AEBFC3;}
+a.tab{transition:all .5s ease;text-decoration: none;display:inline;font-family:'Muli', sans-serif;font-weight:300;color:white;margin:10px;border:2px solid white;padding:11px;}
+a.tab:hover{color:black;background-color:white;}
+li{display: inline;}
+a.active{text-decoration: none;display:inline;font-family:'Muli', sans-serif;font-weight:300;color:black;margin:10px;border:2px solid white;padding:11px;color:black;background-color:white;}
+#navtabs{background-color:rgba(0,0,0,.9);width:100%;position:fixed;top:100px;z-index:999;left:0;padding-bottom:10px;}
+ul{list-style-type: none;}

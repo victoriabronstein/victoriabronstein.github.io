@@ -75,7 +75,8 @@ img {
 .center {
 	text-align: center;
 }
-.header {
+
+header {
 	width:100%;
 	height:100%;
 	position:absolute;
@@ -83,9 +84,6 @@ img {
 	top:0;
 	background-size:100%;
 	background-repeat:no-repeat;
-}
-
-#dia {
 	background-image:url("http://www.realestateone.com/community/wp-content/uploads/2012/12/Detroit-Institute-of-Art.jpg");
 }
 

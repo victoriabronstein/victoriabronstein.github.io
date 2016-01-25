@@ -26,7 +26,7 @@ ul{list-style-type: none;}
 #logo{transition:all .5s ease;background-image:url("detroitlogowords.png");background-size:180px;width:180px;height:100%;background-repeat:no-repeat;background-position:50%;margin:0 auto;}
 #logo:hover{cursor:pointer;opacity:.7;}
 
-#header{position:absolute;left:0;height:420px;width:100%;background-image:url("https://img1.etsystatic.com/053/0/5695102/il_fullxfull.717628593_zfee.jpg");background-size:50%;background-position:50%;}
+header{position:absolute;left:0;height:420px;width:100%;background-image:url("https://img1.etsystatic.com/053/0/5695102/il_fullxfull.717628593_zfee.jpg");background-size:50%;background-position:50%;}
 
 #blog{position:absolute;top:520px;background-color:white;width:100%;}
 

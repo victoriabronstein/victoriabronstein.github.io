@@ -82,10 +82,8 @@ header {
 	top:0;
 	background-size:100%;
 	background-repeat:no-repeat;
-}
-#shinolastore {
 	background-image:url("http://www.dailydetroit.com/wp-content/uploads/2014/12/Store-Front-3.jpg");
-	}
+}
 .innercontent {
 	background-color:white;
 	margin:0 auto;
